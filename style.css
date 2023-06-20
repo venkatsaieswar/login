@@ -1,0 +1,85 @@
+.see{
+    display: flex;
+    width: 100px;
+    float: right;
+    margin-right: 3%;
+}
+hr{
+    margin-top: 10px;
+    height: 18px;
+}
+a{
+    text-decoration:none;
+    color: rgb(255, 255, 255);
+}
+.nav{
+    padding:10px;
+}
+.pic{
+    background-attachment: fixed;
+    background: url("https://th.bing.com/th/id/R.a0580844d993b01d8290adf863df801e?rik=y9eIYwt6%2fwFCug&riu=http%3a%2f%2fimages6.fanpop.com%2fimage%2fphotos%2f35800000%2fChocolate-chocolate-35818061-1980-1287.jpg&ehk=okicj9pxKZ0ql14SfAf68F%2fQlEvZ0GnrmRw5OBuizwM%3d&risl=1&pid=ImgRaw&r=0");
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: background 1s ease;
+    
+}
+.pic:hover{
+    animation: pic 3s infinite;
+    
+    
+}
+@keyframes pic{
+    25%{
+        background-attachment: fixed;
+        background: url("https://th.bing.com/th/id/R.a0580844d993b01d8290adf863df801e?rik=y9eIYwt6%2fwFCug&riu=http%3a%2f%2fimages6.fanpop.com%2fimage%2fphotos%2f35800000%2fChocolate-chocolate-35818061-1980-1287.jpg&ehk=okicj9pxKZ0ql14SfAf68F%2fQlEvZ0GnrmRw5OBuizwM%3d&risl=1&pid=ImgRaw&r=0");
+        background-repeat: no-repeat;
+    background-size: cover;
+    }
+    50%{
+        background-attachment: fixed;
+        background: url("https://th.bing.com/th/id/R.b05992c189d2c771a195d911ce56d380?rik=9rdbt6Q01BJ05g&riu=http%3a%2f%2fjustfunfacts.com%2fwp-content%2fuploads%2f2018%2f01%2fcandies.jpg&ehk=SUQ4ydVAQuulFB749JUWfLeOb%2fewR8Bqs69AWYE9gTs%3d&risl=&pid=ImgRaw&r=0");
+        background-repeat: no-repeat;
+    background-size: cover;
+    }
+    100%{
+        background-attachment: fixed;
+        background: url("https://th.bing.com/th/id/R.7993e4fb090ed2ccacd75af9b306122f?rik=LXMcXinSPjog0w&riu=http%3a%2f%2fwww.businessnewsdaily.com%2fimages%2fi%2f000%2f002%2f553%2fi02%2fcandy-image.jpg%3f1340725305&ehk=Np5%2fnjn076LgNZNfZt%2bM4tawL8OvdbF4ZMdMVyAfda0%3d&risl=&pid=ImgRaw&r=0&sres=1&sresct=1");
+        background-repeat: no-repeat;
+    background-size: cover;
+    }
+}
+#p{
+    position: absolute;
+    font-size:xx-large;
+    font-weight: bolder;
+    background-color: rgba(243, 244, 240, 0.8);;
+    margin-top: 18%;
+    margin-left: 20%;
+}
+nav a{
+    background-color:rgba(45, 36, 27, 0.785);
+  }
+.form{
+    height: 180px;
+    width: 280px;
+    background-color: rgba(252, 168, 85, 0.785);
+    margin-top: -30%;
+    margin-left: 40%;
+    padding: 2%;
+    border: 2px solid rgb(112, 60, 7);
+    position: relative;
+}
+.box{
+    margin-top: 5%;
+    margin-left: 10%;
+    position: absolute;
+}
+input{
+    width: 200px;
+}
+button{
+    margin-top: -3%;
+    margin-bottom: 5%;
+    margin-left: 33%;
+    background-color: bisque;
+}

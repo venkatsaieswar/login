@@ -1,0 +1,45 @@
+.add{
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: x-large;
+    font-weight: 700;
+}
+body{
+    background: url("https://cdn.shopify.com/s/files/1/0957/5960/products/Snack_Hawaii_055_2149x2149.jpg?v=1562000838");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+#register{
+    text-align: center;
+    height: 50px;
+    width: 100px;
+}
+.body{
+    height: 410px;
+    width: 300px;
+    background-color: rgba(243, 244, 240, 0.8);
+    margin-left: 38%;
+    margin-top: 50px;
+    font-size: large;
+    position: relative;
+}
+.ad{
+    margin-left: 10%;
+    margin-top: 5px;
+    position: absolute;
+}
+input{
+    width: 220px;
+}
+#register{
+    margin-left:25%;
+    background-color: aquamarine;
+    margin-bottom: 3%;
+}
+#val {
+    margin-left:30%;
+    background-color: rgb(175, 185, 181);
+    margin-bottom: 3%;
+    width: fit-content;
+}
