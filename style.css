@@ -16,7 +16,8 @@ a{
     padding:10px;
 }
 .pic{
-    background-attachment: fixed;
+    height: 500px;
+    width: 1100px;
     background: url("https://th.bing.com/th/id/R.a0580844d993b01d8290adf863df801e?rik=y9eIYwt6%2fwFCug&riu=http%3a%2f%2fimages6.fanpop.com%2fimage%2fphotos%2f35800000%2fChocolate-chocolate-35818061-1980-1287.jpg&ehk=okicj9pxKZ0ql14SfAf68F%2fQlEvZ0GnrmRw5OBuizwM%3d&risl=1&pid=ImgRaw&r=0");
     background-repeat: no-repeat;
     background-size: cover;
@@ -25,12 +26,11 @@ a{
 }
 .pic:hover{
     animation: pic 3s infinite;
-    
-    
 }
 @keyframes pic{
     25%{
-        background-attachment: fixed;
+         height: 500px;
+         width: 1100px;
         background: url("https://th.bing.com/th/id/R.a0580844d993b01d8290adf863df801e?rik=y9eIYwt6%2fwFCug&riu=http%3a%2f%2fimages6.fanpop.com%2fimage%2fphotos%2f35800000%2fChocolate-chocolate-35818061-1980-1287.jpg&ehk=okicj9pxKZ0ql14SfAf68F%2fQlEvZ0GnrmRw5OBuizwM%3d&risl=1&pid=ImgRaw&r=0");
         background-repeat: no-repeat;
     background-size: cover;
