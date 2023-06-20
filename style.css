@@ -25,9 +25,9 @@ a{
     
 }
 .pic:hover{
-    animation: pic 3s infinite;
+    animation: pics 3s infinite;
 }
-@keyframes pic{
+@keyframes pics{
     25%{
          height: 500px;
          width: 1100px;
@@ -53,7 +53,7 @@ a{
     font-size:xx-large;
     font-weight: bolder;
     background-color: rgba(243, 244, 240, 0.8);;
-    margin-top: 18%;
+    margin-top: -25%;
     margin-left: 20%;
 }
 nav a{
@@ -82,4 +82,11 @@ button{
     margin-bottom: 5%;
     margin-left: 33%;
     background-color: bisque;
+}
+.log{
+    background: url('https://th.bing.com/th/id/R.a18fe738f770793cdf71096c4c0375bb?rik=NzIt86ilDwOIVA&riu=http%3a%2f%2fdemandware.edgesuite.net%2fsits_pod45%2fdw%2fimage%2fv2%2fBBKV_PRD%2fon%2fdemandware.static%2f-%2fSites-thorntons-live-products%2fdefault%2fdw4e2566db%2frange%2fclassic%2flifestyle%2f64472-Classic-248g-lifestyle.jpg%3fsw%3d1350%26sh%3d1000%26sm%3dfit&ehk=QWulbpro2AQDbZ71cWHiw6nP34y1839WN3iiLbnnY4c%3d&risl=&pid=ImgRaw&r=0');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+
 }
